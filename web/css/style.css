@@ -1,0 +1,76 @@
+
+.categories{
+    margin-top: 50px;
+    list-style: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000;
+}
+.goods{
+    display: none;
+    font-size: 12px;
+    text-transform: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.adminCategories{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000;
+    list-style: none;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.adminCategories li{
+    height: 100%;
+    float: left;
+}
+
+.category{
+    height: 100%;
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-right: 2px solid #2b669a;
+    text-align: center;
+
+}
+.adminCategories li:last-child .category{
+    border-right: 0px solid #2b669a;
+}
+.adminGoods{
+    display: none;
+    font-size: 12px;
+    text-transform: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+
+}
+.management{
+    height: 100%;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.tableActive{
+    display: table;
+}
+.catActive{
+    background: rgba(43,102,154,0.5);
+}
+a:hover, a:focus {
+    color: #000;
+    text-decoration: none;
+}
+#create{
+    margin: 10px 0;
+}
